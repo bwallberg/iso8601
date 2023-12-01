@@ -1,0 +1,50 @@
+body {
+	color: #d8dee9;
+	background: #2e3440;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 100vh;
+	font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+
+input {
+	color: inherit;
+	font-size: 7.5vw;
+	text-align: center;
+	text-decoration: underline;
+
+	height: 20vh;
+	max-width: 90vw;
+	box-sizing: border-box;
+
+	background: transparent;
+
+	border: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+section {
+	text-align: center;
+}
+
+
+section header h2 {
+	font-size: 4vw;
+	font-weight: normal;
+}
+
+section span {
+	font-size: 5vw;
+}
+
+.duration {
+	display: flex;
+	gap: 1rem;
+}
