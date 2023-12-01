@@ -17,13 +17,18 @@ input {
 	text-align: center;
 	text-decoration: underline;
 
-	height: 20vh;
 	max-width: 90vw;
+	padding-bottom: 1rem;
 	box-sizing: border-box;
 
 	background: transparent;
 
 	border: none;
+}
+
+.example {
+	font-style: italic;
+	text-align: center;
 }
 
 input:focus {
