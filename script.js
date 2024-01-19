@@ -3,6 +3,7 @@ const months = document.querySelector('span.months');
 const weeks = document.querySelector('span.weeks');
 const days = document.querySelector('span.days');
 const hours = document.querySelector('span.hours');
+const minutes = document.querySelector('span.minutes');
 const seconds = document.querySelector('span.seconds');
 
 function setDuration(iso8601) {
@@ -14,6 +15,7 @@ function setDuration(iso8601) {
     weeks.innerText = duration.weeks;
     days.innerText = duration.days;
     hours.innerText = duration.hours;
+    minutes.innerText = duration.minutes;
     seconds.innerText = duration.seconds;
   } catch (e) {
     years.innerText = '-';
@@ -21,6 +23,7 @@ function setDuration(iso8601) {
     weeks.innerText = '-';
     days.innerText = '-';
     hours.innerText = '-';
+    minutes.innerText = '-';
     seconds.innerText = '-';
 	}
 }
